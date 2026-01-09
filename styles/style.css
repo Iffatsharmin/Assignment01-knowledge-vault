@@ -280,4 +280,8 @@ nav .menu{
     height: 52px;
     display: flex;
     align-items: center;
+
+}
+.btn:hover {
+    background-color: #F95555;
 }
