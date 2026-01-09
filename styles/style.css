@@ -192,6 +192,58 @@ nav .menu{
 .check-list {
     margin-top: 40px;
 }
+
+/* footer section */
+.footer {
+    background-color: #001931;
+    padding: 120px 120px 30px 120px;
+
+    display: flex;
+    flex-direction: column;
+    gap: 80px;
+}
+.footer-begaining {
+    display: flex;
+    justify-content: space-between;
+
+}
+.social-link-part p {
+    font-weight: 400;
+    font-size: 20px;
+    color: white;
+}
+.footer-ending {
+    width: 1360px;
+    padding-top: 30px;
+    border-top: 2px dotted #E5E7EB;
+}
+.footer-ending p {
+    font-weight: 300;
+    font-size: 16;
+    color: white;
+    text-align: center;
+}
+.social-icon {
+    display: flex;
+    justify-content: space-between;
+}
+.social-icon a {
+    width: 30px;
+    height: 30px;
+    background-color: white;
+    border-radius: 50%;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+}
+.social-link-part {
+    display: flex;
+    flex-direction: column;
+    
+    gap: 16px;
+}
 /* Shared style */
 
 .btn {
