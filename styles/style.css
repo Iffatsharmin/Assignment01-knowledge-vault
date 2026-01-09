@@ -153,6 +153,45 @@ nav .menu{
   margin-bottom: 12px;
 }
 
+/* second brain section */
+.second-brain {
+    display: flex;
+    gap: 60px;
+    margin: 120px;
+}
+#brain-image {
+    height: 600px;
+    width: 600px;
+}
+#top-writing {
+    color: #30b868;
+    font-weight: 400;
+    font-size: 16;
+}
+
+.second-brain-content {
+    display: flex;
+    flex-direction: column;
+    align-items: first baseline;
+    gap: 24px;
+    justify-content: center;
+}
+.second-brain-content h2 {
+    font-weight: 600;
+    font-size: 48px;
+}
+.second-brain-content p {
+    font-weight: 300;
+    font-size: 14;
+}
+.check-item {
+    display: flex;
+    gap: 16px;
+    margin-bottom: 16px;
+}
+.check-list {
+    margin-top: 40px;
+}
 /* Shared style */
 
 .btn {
