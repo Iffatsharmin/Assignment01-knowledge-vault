@@ -24,6 +24,135 @@ nav .menu{
     margin-top: 18px;
 }
 
+/* banner section */
+.banner {
+    background-image: url("../assets/hero-bg.png");
+    height: 674px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.banner-content {
+    height: 379px;
+    width: 1360px;
+    margin: 154px 341px;
+    text-align: center;
+    justify-content: center;
+}
+.heading {
+    font-size: 64px;
+    font-weight: 600;
+    line-height: 1.2;
+    color: white;   
+}
+.colored-heading {
+    color: #30b868;
+}
+.heading-text {
+    font-weight: 400;
+    color: white;
+    margin-top: 16px;
+    margin-bottom: 32px;
+}
+.banner-button {
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+    align-items: center;
+}
+.transparent-btn {
+    background: transparent;
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+    padding: 12px 16px;
+    width: 198px;
+    height: 52px;
+    border-radius: 4px;
+    border-color: white;
+}
+.early-access-btn {
+    background-color: white;
+    color: #30b868;
+    font-weight: 500;
+    font-size: 16;
+    padding: 8px 12px;
+    border-radius: 1000px;
+
+}
+/* note section */
+.notes {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0 120px;
+    padding: 0 120px;
+}
+.note-heading {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+    padding-top: 50px;
+    padding-bottom: 44px;
+}
+.note-heading h2 {
+    font-weight: 600;
+    font-size: 48px;
+}
+.note-heading p {
+    font-weight: 300;
+    font-size: 14px;
+}
+.card {
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+    margin-bottom: 80px;
+
+}
+.card-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    width: 240px;
+    height: 220px;
+
+    background-color: #ffffff;
+    border-radius: 12px;
+
+    text-align: center;
+    padding: 24px;
+
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.04);
+
+    
+}
+.card-item h5 {
+    font-weight: 500;
+    font-size: 24px;
+}
+.card-item p {
+    font-weight: 300;
+    font-size: 14px;
+}
+.card-item img {
+    background: #F95555;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  display: block;
+  margin-bottom: 12px;
+}
+
 /* Shared style */
 
 .btn {
@@ -34,5 +163,6 @@ nav .menu{
     padding: 12px 16px;
     border: none;
     border-radius: 4px;
+    height: 52px;
     
 }
