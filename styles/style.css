@@ -1,0 +1,38 @@
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.inter {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+}
+
+/* navbar and hero section */
+
+nav{
+    padding: 16px 120px;
+    display: flex;
+    justify-content: space-between;
+}
+
+nav .menu{
+    display: flex;
+    list-style-type: none;
+    gap: 32px;
+    margin-top: 18px;
+}
+
+/* Shared style */
+
+.btn {
+    background-color: #30b868;
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+    padding: 12px 16px;
+    border: none;
+    border-radius: 4px;
+    
+}
